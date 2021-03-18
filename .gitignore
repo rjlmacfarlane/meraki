@@ -112,6 +112,9 @@ dist
 # testing
 /coverage
 
+#temporary files
+.tmp
+
 # production
 /build
 
