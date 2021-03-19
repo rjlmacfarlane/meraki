@@ -4,7 +4,8 @@
     "occupation":"(Your Occupation Here)",
     "description":"Specializing in custom interior design, our studio serves the Nova Scotia community with unique boutique homes to fit any style or budget",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bioLineOne":"Iris Chanterelle is the founder of Meraki Home Design Studio. Born in Victoria, B.C. she now resides in Nova Scotia with her two children and loyal studio dog, Cookie. Inspired by nature and renaissance era architecture, Iris’ style imbues a simple; yet regal, old world charm, and her bespoke home designs and vignettes are truly one of a kind.",
+    "bioLineTwo":"As an artist, I aspire to cultivate harmonious interaction between whimsical rustic charm and modern convenience. My unique design concepts include sourcing, restoring, and integrating reclaimed architectural elements, and I work closely with local craftsmen and artisans to bring a vision to life. I am self-taught, inspired by people I've met, places I've been, an incessant need to forage; and quite simply, a love of beauty.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
@@ -149,15 +150,23 @@
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "ethos":{
+    "ethos":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"Seek patience and passion in equal amounts. Patience alone will not build the temple. Passion alone will destroy its walls.",
+        "user":"Maya Angelou"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them.",
+        "user":"Henry David Thoreau"
+      },
+      {
+        "text":"Architecture is not based on concrete and steel, and the elements of the soil. It's based on wonder.",
+        "user":"Daniel Libeskind"
+      },
+      {
+        "text":"Great buildings that move the spirit have always been rare. In every case they are unique, poetic, products of the heart.",
+        "user":"Arthur Erickson"
       }
     ]
   }
