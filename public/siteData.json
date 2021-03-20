@@ -139,6 +139,34 @@
         "thumbnailWidth": 512,
         "thumbnailHeight": 341,
         "caption": "This is really something, isn't it?"
+      },
+      {
+        "src": "images/gallery/013.jpg",
+        "thumbnail": "images/gallery/thumbs/013.jpg",
+        "thumbnailWidth": 142,
+        "thumbnailHeight": 213,
+        "caption": "Have a seat. Read a book!"
+      },
+      {
+        "src": "images/gallery/014.jpg",
+        "thumbnail": "images/gallery/thumbs/014.jpg",
+        "thumbnailWidth": 512,
+        "thumbnailHeight": 341,
+        "tags": [{"value": "Kitchen", "title": "Kitchen"}],
+        "caption": "Modern convenience meets nostalgic warmth"
+      },
+      {
+        "src": "images/gallery/015.jpg",
+        "thumbnail": "images/gallery/thumbs/015.jpg",
+        "thumbnailWidth": 192,
+        "thumbnailHeight": 288
+      },
+      {
+        "src": "images/gallery/016.jpg",
+        "thumbnail": "images/gallery/thumbs/016.jpg",
+        "thumbnailWidth": 192,
+        "thumbnailHeight": 288,
+        "caption": "Cozy in the country"
       }
     ],  
   "ethos":{
