@@ -5,10 +5,9 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Ethos from './Components/Ethos';
-import Portfolio from './Components/Portfolio';
+import PhotoGallery from './Components/Gallery';
 
 class App extends Component {
 
@@ -16,7 +15,7 @@ class App extends Component {
     super(props);
     this.state = {
       foo: 'bar',
-      resumeData: {}
+      siteData: {}
     };
 
     ReactGA.initialize('UA-110570651-1');
@@ -24,13 +23,13 @@ class App extends Component {
 
   }
 
-  getResumeData(){
+  getSiteData(){
     $.ajax({
-      url:'/resumeData.json',
+      url:'/siteData.json',
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({resumeData: data});
+        this.setState({siteData: data});
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
@@ -40,19 +39,18 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.getResumeData();
+    this.getSiteData();
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        {/* <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/> */}
-        <Ethos data={this.state.resumeData.ethos}/>
-        <Contact data={this.state.resumeData.main}/>
-        <Footer data={this.state.resumeData.main}/>
+        <Header data={this.state.siteData.main}/>
+        <About data={this.state.siteData.main}/>
+        <PhotoGallery data={this.state.siteData.gallery}/>
+        <Ethos data={this.state.siteData.ethos}/>
+        <Contact data={this.state.siteData.main}/>
+        <Footer data={this.state.siteData.main}/>
       </div>
     );
   }

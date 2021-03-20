@@ -14,14 +14,13 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Iris Chanterelle Profile Picture" />
+            <img className="profile-pic"  src={profilepic} alt="Iris Chanterelle Profile" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
