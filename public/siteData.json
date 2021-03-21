@@ -184,6 +184,25 @@
       {
         "src": "images/gallery/022.jpg",
         "thumbnail": "images/gallery/thumbs/022.jpg",
+        "thumbnailWidth": 208,
+        "thumbnailHeight": 240
+      },
+      {
+        "src": "images/gallery/023.jpg",
+        "thumbnail": "images/gallery/thumbs/023.jpg",
+        "thumbnailWidth": 230,
+        "thumbnailHeight": 288,
+        "caption": "Just stunning, really."
+      },
+      {
+        "src": "images/gallery/024.jpg",
+        "thumbnail": "images/gallery/thumbs/024.jpg",
+        "thumbnailWidth": 432,
+        "thumbnailHeight": 288
+      },
+      {
+        "src": "images/gallery/iris.jpg",
+        "thumbnail": "images/gallery/thumbs/iris.jpg",
         "thumbnailWidth": 432,
         "thumbnailHeight": 288,
         "tags": [{"value": "Iris Chanterelle", "title": "Iris Chanterelle"}],
