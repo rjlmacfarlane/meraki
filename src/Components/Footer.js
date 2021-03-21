@@ -19,7 +19,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>Meraki Home Designs and Associated Content &copy; Copyright 2021 Iris Chanterelle</li>
+              <li>Meraki Home Designs and Associated Content &copy; 2021 Iris Chanterelle</li>
               <li>Developed by <a title="Ryan MacFarlane" href="https://github.com/rjlmacfarlane">Ryan MacFarlane</a></li>
               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
            </ul>

@@ -19,12 +19,12 @@
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://instagram.com/",
         "className":"fa fa-instagram"
       },
       {
@@ -199,6 +199,18 @@
         "thumbnail": "images/gallery/thumbs/024.jpg",
         "thumbnailWidth": 432,
         "thumbnailHeight": 288
+      },
+      {
+        "src": "images/gallery/025.jpg",
+        "thumbnail": "images/gallery/thumbs/025.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 213
+      },
+      {
+        "src": "images/gallery/026.jpg",
+        "thumbnail": "images/gallery/thumbs/026.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 213
       },
       {
         "src": "images/gallery/iris.jpg",
