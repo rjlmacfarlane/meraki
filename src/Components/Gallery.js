@@ -9,12 +9,13 @@ class PhotoGallery extends Component {
 
     return (
       <section id="gallery">
+        {/* <h2>Gallery</h2> */}
         <div style={{
             display: "block",
             minHeight: "1px",
             width: "100%",
-            border: "1px solid #ddd",
-            padding: "22px",
+            border: "0px solid #ddd",
+            padding: "62px",
             overflow: "auto"}}>
             <div style={{
                  color: "#666"
