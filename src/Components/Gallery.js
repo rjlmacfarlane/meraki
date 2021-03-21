@@ -12,15 +12,17 @@ class PhotoGallery extends Component {
         {/* <h2>Gallery</h2> */}
         <div style={{
             display: "block",
+            background:"floralwhite",
             minHeight: "1px",
             width: "100%",
             border: "0px solid #ddd",
-            padding: "62px",
+            padding: "42px",
             overflow: "auto"}}>
             <div style={{
                  color: "#666"
                 }}>
             </div>
+            <h2>Photo Gallery</h2>
             <Gallery
                 images={images}
                 enableLightbox={true}
