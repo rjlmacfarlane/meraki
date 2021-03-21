@@ -12,7 +12,6 @@ const Contact = () => {
       setName(event.target.value)
    }
 
-
    const onEmailChange = (event) => {
       setEmail(event.target.value)
    }
@@ -122,6 +121,5 @@ const Contact = () => {
    </section>
   );
 }
-
 
 export default Contact;
