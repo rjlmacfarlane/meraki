@@ -65,7 +65,7 @@ const Contact = () => {
 
             <div className="ten columns">
 
-                  <p className="lead">Interested to learn more? Get in touch with the form below.</p>
+                  <p className="lead">Contact Iris to discuss your design journey!</p>
 
             </div>
 

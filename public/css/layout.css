@@ -231,6 +231,10 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+#about .signature {
+   float: right;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
