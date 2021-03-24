@@ -33,10 +33,9 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
-            <ul className="social">
-               {networks}
-            </ul>
+            
+            <img src="images/logo.png" alt="Meraki Home Design Studio Nova Scotia"></img>
+            
          </div>
       </div>
 

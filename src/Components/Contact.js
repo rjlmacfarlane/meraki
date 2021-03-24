@@ -115,7 +115,7 @@ const Contact = () => {
 
 
             <aside className="four columns footer-widgets">
-            <img className="footer-pic"  src="images/footer-pic.jpg" alt="Iris Chanterelle Profile" />
+            <img className="footer-pic"  src="images/footer-pic.jpg" alt="Cookie" />
             </aside>
       </div>
    </section>

@@ -22,9 +22,11 @@ class About extends Component {
       <div className="row">
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Iris Chanterelle Profile" />
+            
          </div>
          <div className="nine columns main-col">
-            <h2>Meet Iris Chanterelle, Interior Designer</h2>
+
+            <h2>Meet Iris Chanterelle, Designer</h2>
 
             <p>{bioLineOne}</p>
             <p>{bioLineTwo}</p>

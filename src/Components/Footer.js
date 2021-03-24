@@ -14,6 +14,8 @@ class Footer extends Component {
 
      <div className="row">
         <div className="twelve columns">
+          <br/>
+          <img src="images/brand-mark.png" alt="Local Interior Home Designs by Meraki"></img>
            <ul className="social-links">
               {networks}
            </ul>
