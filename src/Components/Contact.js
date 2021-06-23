@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs, { init } from 'emailjs-com';
-init("user_0laE1CyljqduXLPSz4BQE");
+init("user_wbgtzF4QSRsAj3BtQ7MF8");
 
 const Contact = () => {
    const [name, setName] = useState('')
