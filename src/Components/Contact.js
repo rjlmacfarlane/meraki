@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import emailjs, { init } from 'emailjs-com';
 init("user_wbgtzF4QSRsAj3BtQ7MF8");
+const serviceID = 'service_d4440c4'
+const templateID = 'template_ddotv2m'
+
 
 const Contact = () => {
    const [name, setName] = useState('')
@@ -34,11 +37,11 @@ const Contact = () => {
       message
       }
 
-      console.log("submit button clicked with these message details: ", messageDetails);
-      emailjs.send('service_d4440c4', 'template_zfnu8rv', messageDetails)
+      console.log('Submit Button pressed:', serviceID, templateID, messageDetails);
+      emailjs.send(serviceID, templateID, messageDetails)
       .then((result) => {
             console.log(result);
-            alert("Message Sent."); 
+            alert("Message Sent!"); 
             resetForm()
       }, (error) => {
             console.log(error.text);
