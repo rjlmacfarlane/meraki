@@ -35,7 +35,7 @@ const Contact = () => {
       }
 
       console.log("submit button clicked with these message details: ", messageDetails);
-      emailjs.send('service_yltvg0s', 'template_1sxj2o5', messageDetails)
+      emailjs.send('service_d4440c4', 'template_zfnu8rv', messageDetails)
       .then((result) => {
             console.log(result);
             alert("Message Sent."); 
